@@ -9,12 +9,14 @@ namespace snake_ladder
             Console.WriteLine("Hello Welcome to snake ladder game");
 
             int position = 0;
+            int dieRollCount = 0;
             Console.WriteLine("You are at position :" + position);
 
             Random random = new Random();
 
             while (position < 100)
             {
+                dieRollCount++;
                 int dieValue = random.Next(1, 7);
                 Console.WriteLine("Die value is : " + dieValue);
                 //int noPlay = 0
@@ -49,12 +51,13 @@ namespace snake_ladder
                 else
                 {
                     Console.WriteLine("No play");
-                    Console.WriteLine("No change in position");
+                   
                     position += 0;
                 }
 
                 Console.WriteLine("The new position after die roll is :" + position);
             }
+            Console.WriteLine("The Die roll count is : " + dieRollCount);
 
         }
     }
