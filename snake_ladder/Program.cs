@@ -10,6 +10,13 @@ namespace snake_ladder
 
             int position = 0;
             Console.WriteLine("You are at position :" + position);
+
+            Random random = new Random();
+            
+                int dieValue = random.Next(1, 7);
+                Console.WriteLine("Die value is : " + dieValue);
+            
+
         }
     }
 }
