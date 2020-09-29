@@ -13,7 +13,7 @@ namespace snake_ladder
 
             Random random = new Random();
 
-            while (position <= 100)
+            while (position < 100)
             {
                 int dieValue = random.Next(1, 7);
                 Console.WriteLine("Die value is : " + dieValue);
@@ -24,7 +24,14 @@ namespace snake_ladder
                 if (placeCheck == ladder)
                 {
                     Console.WriteLine("Ladder");
-                    position += dieValue;
+                    if (position + dieValue > 100)
+                    {
+                        position = position + 0;
+                    }
+                    else
+                    {
+                        position += dieValue;
+                    }
                 }
                 else if (placeCheck == snake)
                 {
