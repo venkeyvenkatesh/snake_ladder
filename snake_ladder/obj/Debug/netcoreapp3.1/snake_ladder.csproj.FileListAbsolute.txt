@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.exe
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.deps.json
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.runtimeconfig.json
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.dll
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\bin\Debug\netcoreapp3.1\snake_ladder.pdb
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.dll
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.pdb
+C:\Users\Administrator\source\repos\snake_ladder\snake_ladder\obj\Debug\netcoreapp3.1\snake_ladder.genruntimeconfig.cache
