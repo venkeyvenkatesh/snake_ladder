@@ -21,6 +21,15 @@ namespace snake_ladder
             Console.WriteLine("The die roll count for player 1 is :" + player1.dieRollCount);
             Console.WriteLine("The die roll count for player 2 is :" + player2.dieRollCount);
 
+            if (player1.dieRollCount > player2.dieRollCount)
+            {
+                Console.WriteLine("Player 2 won");
+            }
+            else
+            {
+                Console.WriteLine("Player 1 won");
+            }
+
         }
 
         public  int PositionAfterDie(int position, int dieValue)
@@ -45,7 +54,7 @@ namespace snake_ladder
                         position += dieValue;
                     }
                 
-              position= PositionAfterDie(position, getDieValue());
+             // position= PositionAfterDie(position, getDieValue());
                 //Console.WriteLine("The new position after die roll is :" + position);
             }
             else if (placeCheck == snake)
